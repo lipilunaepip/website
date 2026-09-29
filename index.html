@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lipi, Luna &amp; Pip</title>
+<meta name="description" content="Desenho infantil com aventura, humor e descobertas na casa da árvore.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;900&display=swap" rel="stylesheet">
+<style>
+  :root { --fundo: #fff8e7; --cartao: #ffffff; --texto: #2b2340; --suave: #6b6480; --destaque: #2f9e6e; --lipi: #3b82f6; --luna: #e0559a; --pip: #e08a2f; }
+  @media (prefers-color-scheme: dark) { :root { --fundo: #1a1626; --cartao: #252038; --texto: #f6f1ff; --suave: #bdb4d6; --destaque: #5fd39f; } }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--fundo); color: var(--texto); font-family: "Nunito", system-ui, sans-serif; line-height: 1.6; }
+  main { max-width: 760px; margin: 0 auto; padding: 32px 16px 48px; }
+  h1 { font-size: 1.7rem; line-height: 1.2; } h2 { font-size: 1.15rem; margin-top: 28px; }
+  a { color: var(--destaque); } .data { color: var(--suave); font-size: .9rem; }
+  footer { margin-top: 40px; color: var(--suave); font-size: .9rem; }
+</style>
+<style>
+  .topo { text-align: center; padding: 24px 0 8px; }
+  .topo h1 { font-size: clamp(2rem, 7vw, 3rem); font-weight: 900; margin: 8px 0; }
+  .topo h1 .l1 { color: var(--lipi); } .topo h1 .l2 { color: var(--luna); } .topo h1 .l3 { color: var(--pip); }
+  .topo p { color: var(--suave); font-size: 1.1rem; margin: 0; }
+  .arvore { font-size: 4rem; }
+  .turma { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; margin-top: 32px; }
+  .cartao { background: var(--cartao); border-radius: 20px; padding: 20px; box-shadow: 0 4px 16px rgba(43, 35, 64, .08); border-top: 6px solid var(--cor); }
+  .cartao h2 { margin: 4px 0 6px; color: var(--cor); }
+  .cartao .emoji { font-size: 2.4rem; }
+  .cartao p { margin: 0; }
+  .botao { display: inline-block; margin-top: 28px; background: #ff0033; color: #fff; text-decoration: none; font-weight: 900; padding: 12px 24px; border-radius: 999px; }
+  .centro { text-align: center; }
+</style>
+</head>
+<body>
+<main>
+  <div class="topo">
+    <div class="arvore" aria-hidden="true">🌳</div>
+    <h1><span class="l1">Lipi</span>, <span class="l2">Luna</span> &amp; <span class="l3">Pip</span></h1>
+    <p>Aventuras, risadas e descobertas a partir da casa na árvore.</p>
+  </div>
+
+  <div class="turma">
+    <div class="cartao" style="--cor: var(--lipi)"><div class="emoji" aria-hidden="true">👦</div><h2>Lipi</h2><p>Curioso e inventor, sempre querendo descobrir como as coisas funcionam.</p></div>
+    <div class="cartao" style="--cor: var(--luna)"><div class="emoji" aria-hidden="true">👧</div><h2>Luna</h2><p>Criativa e corajosa, transforma qualquer momento em uma grande aventura.</p></div>
+    <div class="cartao" style="--cor: var(--pip)"><div class="emoji" aria-hidden="true">🐶</div><h2>Pip</h2><p>O cãozinho que sempre encontra algo inesperado e começa a aventura.</p></div>
+  </div>
+
+  <p class="centro"><a class="botao" href="https://www.youtube.com/@lipilunaepip">▶ Assista no YouTube</a></p>
+
+  <footer><a href="./">Início</a> · <a href="privacidade.html">Política de Privacidade</a> · <a href="termos.html">Termos de Uso</a> · <a href="mailto:lipilunaepip@gmail.com">lipilunaepip@gmail.com</a></footer>
+</main>
+</body>
+</html>
